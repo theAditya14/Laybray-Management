@@ -1,16 +1,169 @@
-# React + Vite
+# 📚 Library Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Library Management System** built using **React, Tailwind CSS, Node.js, and Express**. This project helps manage students, track fee status, maintain payment history, and automatically organize due and completed payments.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### 👨‍🎓 Student Management
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Add new students
+* Edit student information
+* Delete students
+* Search students by name, seat number, or mobile number
 
-## Expanding the ESLint configuration
+### 💰 Fee Management
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Separate sections for:
+
+  * Fee Due
+  * Fee Complete
+* Mark fees as completed
+* Automatically update student status
+* Maintain payment records
+
+### 📊 Dashboard
+
+* Total students
+* Due students
+* Completed students
+* Payment statistics
+
+### 📂 Data Storage
+
+Data is stored using JSON files:
+
+* `students.json`
+* `dueStudents.json`
+* `completeStudents.json`
+* `paymentHistory.json`
+
+### ⚙️ Backend
+
+Built with:
+
+* Node.js
+* Express.js
+
+Using:
+
+* Routes
+* Controllers
+* Utility functions
+* File services
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* React
+* Tailwind CSS
+* React Router DOM
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Storage
+
+* JSON files
+
+---
+
+## 📁 Project Structure
+
+```text
+src/
+│
+├── Component/
+│     ├── Hero.jsx
+│     ├── Navbar.jsx
+│     ├── StudentForm.jsx
+│     └── MainLayout.jsx
+│
+├── App.jsx
+└── main.jsx
+
+controllers/
+routes/
+utils/
+
+students.json
+dueStudents.json
+completeStudents.json
+paymentHistory.json
+
+server.js
+package.json
+```
+
+---
+
+## ▶️ Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run backend:
+
+```bash
+node server.js
+```
+
+Run frontend:
+
+```bash
+npm run dev
+```
+
+---
+
+## ✨ Future Improvements
+
+* MongoDB Integration
+* Authentication and Login System
+* Admin Dashboard
+* Export Data to CSV/PDF
+* Notifications and Reminders
+* Cloud Database Support
+
+---
+
+## 🤖 AI Assistance
+
+This project was developed with the help of AI tools for learning, code optimization, debugging, and improving project structure.
+
+AI tools were used as assistants during development, while the implementation, understanding, customization, and overall project decisions were carried out by the developer.
+
+---
+
+## 👨‍💻 Developer
+
+**Aditya**
+
+Aspiring Full Stack Developer
+
+Currently learning:
+
+* React
+* Node.js
+* Express.js
+* Data Structures and Algorithms
+* Backend Development
+
+---
+
+### ⭐ If you like this project, consider giving it a star!

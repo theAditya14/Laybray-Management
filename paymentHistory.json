@@ -1,0 +1,18 @@
+[
+  {
+    "studentId": "bf732a5c-7de9-4f74-9272-609aac0cab41",
+    "name": "Aditya nayak",
+    "paidDate": "2026-06-11",
+    "amount": 0,
+    "seat": "90",
+    "month": "June 2026"
+  },
+  {
+    "studentId": "fd294a58-19f7-4361-a242-5883736b5321",
+    "name": "Rajkumar",
+    "paidDate": "2026-06-11",
+    "amount": 0,
+    "seat": "1",
+    "month": "June 2026"
+  }
+]
